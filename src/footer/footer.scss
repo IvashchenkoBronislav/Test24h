@@ -1,0 +1,61 @@
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url('../img/noise.png'), #0a0a14;
+
+}
+
+.footer-case{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    &-item{
+        font-weight: 700;
+        padding: 0 8px;
+    }
+}
+
+.footer-logo-case{
+    display: flex;
+    gap: 5px;
+}
+
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    &>img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    border-top: 1px dashed #303036;
+    color: #646a87;
+    font-size: 12px;
+    padding: 50px 0 0 0;
+    margin-bottom: 20px;
+}
